@@ -1,0 +1,9 @@
+{
+  "name": "iwavedigital-monorepo",
+  "private": true,
+  "workspaces": [],
+  "scripts": {
+    "dev:api": "cd backend && npm i && npm run dev",
+    "dev:dash": "cd dashboard && npm i && npm run dev"
+  }
+}
